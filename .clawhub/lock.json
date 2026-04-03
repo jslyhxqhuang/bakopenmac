@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-wecom-channel": {
+      "version": "0.1.0",
+      "installedAt": 1775208739102
+    },
+    "wecom-connect": {
+      "version": "1.0.0",
+      "installedAt": 1775208746741
+    },
+    "wecom-file-sender": {
+      "version": "1.0.0",
+      "installedAt": 1775208753055
+    },
+    "wecom-deep-op": {
+      "version": "2.0.2",
+      "installedAt": 1775208761268
+    },
+    "wecom-user-manager": {
+      "version": "1.0.0",
+      "installedAt": 1775208782972
+    },
+    "wecom-voice": {
+      "version": "1.0.0",
+      "installedAt": 1775208789709
+    },
+    "wecom-email": {
+      "version": "1.0.0",
+      "installedAt": 1775208794459
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1775208843760
+    },
+    "gh-issues": {
+      "version": "1.0.0",
+      "installedAt": 1775208849951
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1775208856227
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1775208858867
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1775208862145
+    },
+    "feishu-doc-manager": {
+      "version": "1.0.0",
+      "installedAt": 1775208868909
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1775208908806
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1775208914408
+    },
+    "diagram-generator": {
+      "version": "1.1.1",
+      "installedAt": 1775208918889
+    },
+    "stock-trader": {
+      "version": "2.0.0",
+      "installedAt": 1775208976956
+    },
+    "microsoft-excel": {
+      "version": "1.0.3",
+      "installedAt": 1775208982859
+    },
+    "humanizer-zh": {
+      "version": "1.0.0",
+      "installedAt": 1775208985716
+    },
+    "planning-with-files": {
+      "version": "2.26.1",
+      "installedAt": 1775209054199
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1775209061977
+    },
+    "feishu-file-sender": {
+      "version": "1.0.9",
+      "installedAt": 1775209101180
+    },
+    "node-connect": {
+      "version": "1.0.0",
+      "installedAt": 1775212581617
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1775212584450
+    },
+    "self-improving-agent-cn": {
+      "version": "1.0.0",
+      "installedAt": 1775212656168
+    },
+    "agent-browser-cli": {
+      "version": "1.0.0",
+      "installedAt": 1775212754015
+    },
+    "tencentcloud-lighthouse-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775212760845
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1775212764454
+    },
+    "tencent-docs": {
+      "version": "1.0.24",
+      "installedAt": 1775212782636
+    },
+    "qqbot": {
+      "version": "1.0.0",
+      "installedAt": 1775212788421
+    },
+    "browser-automation": {
+      "version": "1.0.1",
+      "installedAt": 1775212817023
+    },
+    "summarize-pro": {
+      "version": "1.0.0",
+      "installedAt": 1775212828849
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1775212833245
+    },
+    "apple": {
+      "version": "1.0.0",
+      "installedAt": 1775212891259
+    },
+    "clawhub-local": {
+      "version": "1.0.0",
+      "installedAt": 1775212927489
+    },
+    "feishu-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1775212996255
+    },
+    "feishu-sheets-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775213001851
+    },
+    "ontology": {
+      "version": "1.0.4",
+      "installedAt": 1775213062131
+    },
+    "tencent-cloud-cos": {
+      "version": "1.1.1",
+      "installedAt": 1775213103912
+    },
+    "wecom-file-detect": {
+      "version": "1.0.0",
+      "installedAt": 1775213109572
+    },
+    "mmxagent-skill-wecom": {
+      "version": "1.0.0",
+      "installedAt": 1775213112630
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775213162970
+    },
+    "qqbot-media-sender": {
+      "version": "1.0.0",
+      "installedAt": 1775213183279
+    },
+    "feishu-perm-cn": {
+      "version": "1.0.0",
+      "installedAt": 1775213290757
+    }
+  }
+}
