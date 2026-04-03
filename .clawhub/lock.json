@@ -176,6 +176,14 @@
     "feishu-perm-cn": {
       "version": "1.0.0",
       "installedAt": 1775213290757
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1775225105875
+    },
+    "self-improving-proactive-agent": {
+      "version": "1.0.0",
+      "installedAt": 1775225283438
     }
   }
 }
