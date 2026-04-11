@@ -31,3 +31,4 @@ git clone https://github.com/jslyhxqhuang/bakopenmac.git .
 
 ## 已完成的重要事项
 - 2026-04-04：完成记忆 GitHub 私有仓库备份配置，每日自动 sync
+- 2026-04-11：OpenClaw v2026.4.2 → v2026.4.10 更新，经历 npm ENOTEMPTY 冲突，通过 openclaw doctor --fix 修复，Gateway 现正常运行
