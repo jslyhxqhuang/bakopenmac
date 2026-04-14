@@ -306,9 +306,26 @@ if __name__ == "__main__":
             print(f"  [{item['category']}] {item['title']} | {item['area']} | {item['date']}")
         sys.exit(0)
 
-    # 正常模式：写入推送队列（后续由 OpenClaw 读取并发送）
+    # 正常模式：写入推送队列，并尝试直接 QQ 推送
     msg = format_message(new)
     with open(PUSH_QUEUE_FILE, "w", encoding="utf-8") as f:
         f.write(msg)
     log.info(f"已写入推送队列: {PUSH_QUEUE_FILE}")
+
+    # 尝试直接 QQ 推送（如果接口可用）
+    try:
+        from qq_sender import send_c2c_text
+        user_openid = "E19D02C454BEE853199D3F98AB573C06"
+        ok = send_c2c_text(user_openid, msg)
+        if ok:
+            log.info("✅ QQ 推送成功")
+            # 清空队列
+            with open(PUSH_QUEUE_FILE, "w", encoding="utf-8") as f:
+                f.write("")
+        else:
+            log.warning("⚠️ QQ 推送失败，保留队列供下次重试")
+            print("\n⚠️ QQ 推送失败，消息已写入队列")
+    except Exception as e:
+        log.warning(f"QQ 推送异常: {e}，保留队列供下次重试")
+
     print("\n" + msg)
