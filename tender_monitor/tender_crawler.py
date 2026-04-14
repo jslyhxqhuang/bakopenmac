@@ -256,7 +256,7 @@ def format_message(items: list) -> str:
     """格式化为 QQ 推送消息"""
     lines = [
         f"🚨 *江苏省交通工程招标日报*",
-        f"📅 {datetime.now().strftime('%Y-%m-%d')} | 工作日 12:30 自动推送\n",
+        f"📅 {datetime.now().strftime('%Y-%m-%d')} | 工作日 13:00 自动推送\n",
         f"共发现 **{len(items)}** 条新公告\n",
         "─" * 40,
     ]

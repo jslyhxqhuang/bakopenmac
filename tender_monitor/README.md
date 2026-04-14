@@ -30,7 +30,7 @@ python3 tender_crawler.py --debug
 python3 tender_crawler.py --test
 ```
 
-### 3. 安装定时任务（工作日 12:30）
+### 3. 安装定时任务（工作日 13:00）
 
 ```bash
 chmod +x tender_cron_setup.sh
