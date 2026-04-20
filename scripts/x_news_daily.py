@@ -1,5 +1,6 @@
 import fcntl
 #!/usr/bin/env python3
+import fcntl
 """
 X (Twitter) 热点新闻每日推送脚本
 每天早上 7 点抓取并推送到 QQ
